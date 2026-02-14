@@ -1,6 +1,8 @@
+using balta_desafio_carnacode_2026_1_abstract_factory.Interface;
+
 namespace balta_desafio_carnacode_2026_1_abstract_factory.Gateway.PagSeguro;
 
-public class PagSeguroLogger
+public class PagSeguroLogger : IPaymentLogger
 {
     public void Log(string message)
     {
